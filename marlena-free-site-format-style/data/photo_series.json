@@ -1,0 +1,32 @@
+{
+  "journey": [
+    {
+      "src": "images/photo/journey/self-perpetuation.jpg",
+      "title": "l’auto-perpétuation du malheur",
+      "year": "—"
+    },
+    {
+      "src": "images/photo/journey/la-famille.jpg",
+      "title": "la famille"
+    },
+    {
+      "src": "images/photo/journey/la-guerre.jpg",
+      "title": "la guerre"
+    },
+    {
+      "src": "images/photo/journey/la-predetermination.jpg",
+      "title": "la prédétermination"
+    },
+    {
+      "src": "images/photo/journey/la-vie-la-nuit.jpg",
+      "title": "la vie la nuit"
+    },
+    {
+      "src": "images/photo/journey/la-banalite.jpg",
+      "title": "la banalité"
+    }
+  ],
+  "exposure": [],
+  "movement": [],
+  "west": []
+}

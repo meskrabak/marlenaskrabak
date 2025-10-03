@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>contact — marlena skrabak</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to Content</a>
+  <header class="site-header">
+    <div class="brand"><a href="index.html">marlena skrabak</a></div>
+    <nav class="nav">
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Open Menu</button>
+      <ul id="menu" class="menu">
+        <li><a href="index.html">painting</a></li>
+        <li><a href="photo.html">photo</a></li>
+        <li><a class="active" href="contact.html">contact</a></li>
+        <li><a href="https://instagram.com/marlenaskrabak" target="_blank" rel="noopener">instagram ↗</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="content narrow">
+    <h1 class="page-title">contact</h1>
+    <p><strong>marlena skrabak</strong> (she/her) — add your short bio here or paste your existing one.</p>
+    <p>Email: <a href="mailto:meskrabak@gmail.com">meskrabak@gmail.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/marlenaskrabak" target="_blank" rel="noopener">@marlenaskrabak</a></p>
+
+    <form class="contact-form" name="contact" netlify>
+      <input type="hidden" name="form-name" value="contact" />
+      <label>
+        Your name
+        <input name="name" required />
+      </label>
+      <label>
+        Your email
+        <input type="email" name="email" required />
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <a href="https://instagram.com/marlenaskrabak" target="_blank" rel="noopener">@marlenaskrabak</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

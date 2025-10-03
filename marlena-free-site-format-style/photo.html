@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>photo — marlena skrabak</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to Content</a>
+  <header class="site-header">
+    <div class="brand"><a href="index.html">marlena skrabak</a></div>
+    <nav class="nav">
+      <button class="menu-toggle" aria-expanded="false" aria-controls="menu">Open Menu</button>
+      <ul id="menu" class="menu">
+        <li><a href="index.html">painting</a></li>
+        <li><a class="active" href="photo.html">photo</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="https://instagram.com/marlenaskrabak" target="_blank" rel="noopener">instagram ↗</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="content">
+    <h1 class="page-title">photo</h1>
+    <div class="series-nav" id="series-nav"></div>
+    <section class="masonry" id="photo-grid" data-source="data/photo_series.json" aria-label="Photo series"></section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="https://instagram.com/marlenaskrabak" target="_blank" rel="noopener">@marlenaskrabak</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
